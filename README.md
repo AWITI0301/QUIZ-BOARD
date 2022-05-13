@@ -12,7 +12,7 @@
 ## credits
 
 
-I give credits to moringa School management for proving me with this project to help me build my skills on CSS, HTML and Javascript.
+I give credits to moringa School management for providing me with this project to help me build my skills on CSS, HTML and Javascript.
 
 ## Links
 The following are the links to my social media accounts.
@@ -20,6 +20,7 @@ The following are the links to my social media accounts.
 @facebook - JOHN MARK
 @twitter - JOHN MARK
 @instagram - JOHN_MARK_69
+@linkedin - JOHN OKETCH AWITI
 
 ## Color Reference
 
@@ -53,7 +54,7 @@ Javascript, HTML and CSS.
 
 ## Installation
 
-Head to your terminal type cd Desktop Type git clone. This method will clone my repository into your computers Desktop path. Make your awesome changes to the project When done initiate a pull request on the repo from github and I will check and merge to the main branch.
+Go to your terminal and type cd Desktop Type git clone. This method will clone my repository into your computers Desktop path. Make your awesome changes to the project When done initiate a pull request on the repo from github and I will check and merge to the main branch.
 
 ## More About Me
 
