@@ -1,4 +1,7 @@
-* {
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+*
+{
     padding:0 ;
     margin: 0;
     font-family:"exo", sans-serif ;
@@ -13,10 +16,13 @@ body{
      background: #d4e0ee;
 }
 
+
 #container{
     height: auto;
     width: auto;
 } 
+   
+
 #start{
     height: 68px;
     width: 260px;
@@ -36,7 +42,7 @@ body{
     color: #e7f1fa;
 }
 
-#guide{
+#guide, #quiz{
     width: 600px;
     padding: 25px;
     background: #e7f1fa;
@@ -56,6 +62,16 @@ body{
     font-size: 45px;
     color: #ff5235;
     padding-left: 50px;
+}
+
+#guide h3{
+    height: 55px;
+    width: px;
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    color: blue;
+    
 }
 
 #guide #button{
@@ -79,15 +95,20 @@ body{
     font-size: 17px;
 
 }
-.continue{
+#guide a{
     cursor: pointer;
-    width: 120px;
+    width: 100px;
     margin: 12px 27px;
     border: none;
     outline: none;
     color: #e7f1fa;
     background: #ff5235;
     border: 1px solid #b0c4d8;
-    border-radius: 23px 7px;
+    border-radius: 20px 7px;
     font-size: 17px;
 }
+
+
+/* start of styling of part 2 (index1.html) */
+
+
