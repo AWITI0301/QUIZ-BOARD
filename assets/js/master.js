@@ -10,6 +10,8 @@ function check() {
     var q8=document.quiz.question8.value;
     var q9=document.quiz.question9.value;
     var q10=document.quiz.question10.value;
+    var result=document.getElementById("result")
+    var quiz=document.getElementById("quiz")
     if (q1=="Web") (c++)
     if (q2=="Object-based") (c++)
     if (q3=="It is a scripting language used to make the website interactive") (c++)
@@ -20,5 +22,7 @@ function check() {
     if (q8=="innerHTML") (c++)
     if (q9=="document.write()") (c++)
     if (q10=="console.log()") (c++)
-        document.write(c)
+    quiz.style.display="none";
+   
+       
 }

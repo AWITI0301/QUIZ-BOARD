@@ -15,4 +15,5 @@ body{
     border: 2px solid #205279be;
     border-radius: 4px;
     height: 2em;
+    cursor: pointer;
 }
