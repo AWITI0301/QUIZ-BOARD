@@ -9,6 +9,10 @@
 
 }
 
+html{
+    font-size: 63%;
+}
+
 body{
     display: grid;
      place-items: center;
@@ -109,6 +113,51 @@ body{
 }
 
 
-/* start of styling of part 2 (index1.html) */
+/* start of styling of quiz.html */
 
+.form{
+    padding-top: 5em;
+    padding-left: 5em;
+    font-size: 25px;
+    align-items: center;
+    padding-left: 30px;
+    margin-left: 50px;
+    margin-top: -250px;
+    width: 15em;
+    height: 15em;
+    border-radius: 12px;
+    background-color: #a5d1f3be;
+    width: 25em;
+}
+.form h1{
+    color: rgb(29, 39, 190);
+    padding-bottom: 20px;
+    font-size: larger;
+    margin-top: -110px;
+    padding-left: 200px;
+}
+.input-container{
+    padding-top: 20px;
+}
+.input{
+    border: 2px solid #205279be;
+    border-radius: 4px;
+    width: 20em;
+    height: 2em;
+}
 
+.submiform{
+    padding-left: 4em;
+}
+
+.submitformbtn{
+    background-color: rgb(245, 22, 22);
+    border: none;
+    color: #000;
+    width: 5em;
+    height: 2em;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+    padding-left: 5px;
+}
