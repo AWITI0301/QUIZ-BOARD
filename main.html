@@ -10,6 +10,8 @@
 </head>
 <body>
     <form name="quiz" id="quiz">
+        <h4>CONGRATULATIONS ON FINISHIG JAVASCRIPT COURSE WOK.</h4>
+        <p class="id2" >Please Atempt The Following Questions.</p>
         <div>
             <p>1.JavaScript is the programming language of the _____.</p>
             <p><input type="radio" name="question1" value="Desktop">A. Desktop</p>
@@ -89,12 +91,17 @@
             <p><input type="radio" name="question10" value="console.log()">C. console.log()</p>
             <p><input type="radio" name="question10" value="console.writeHTML()">console.writeHTML()</p>
         </div>
-        <input type="buttonV2" name="" value="BACK!" id="button" onclick="check()">
-        <input type="button" name="" value="SUBMIT!" id="button" onclick="check()">
+      
+        
+        <input id="button" type="button" value="SUBMIT" onclick="check();">
+    
 
     </form>
-
-        <p id="result" ></p>
+    <div id="after_submit">
+        <p id="number_correct"></p>
+    </div>
+  
+       <script src="./assets/js/master.js"></script>
     
 </body>
 </html>

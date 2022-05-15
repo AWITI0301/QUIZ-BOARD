@@ -18,6 +18,7 @@ body{
      place-items: center;
      height: 100vh;
      background: #d4e0ee;
+     font-family: "lato", sans-serif;
 }
 
 
@@ -40,6 +41,7 @@ body{
     border: 3px solid #b0c4d8;
     cursor: pointer;
     display: none;
+   
 }
 #start:hover{
     background: #ff5235;
@@ -52,7 +54,7 @@ body{
     background: #e7f1fa;
     border-radius: 35px 15px;
     border: 1px solid #b0c4d8;
-    /* display: none */
+    
 }
 
 #guide h4{
@@ -85,18 +87,7 @@ body{
     justify-content: flex-end;
 
 
-}
-.exit{
-    cursor: pointer;
-    width: 120px;
-    margin: 12px 27px;
-    border: none;
-    outline: none;
-    color: #e7f1fa;
-    background: #ff5235;
-    border: 1px solid #b0c4d8;
-    border-radius: 23px 7px;
-    font-size: 17px;
+
 
 }
 #guide a{

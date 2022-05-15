@@ -4,17 +4,36 @@ body{
     font-size: 20px;
     font-weight: bolder;
     margin-left: 3rem;
+    font-family: "lato", sans-serif;
 }
 
-#button{
-    background-color: black;
-    color: white;
-    font-size: 20px;
+#after_submit{
+    visibility: hidden;
+}
+
+
+
+#retake{
+    font-size: 20px ;
     padding: 5px;
-    margin-left: 570px;
-    border: 2px solid #205279be;
-    border-radius: 4px;
     height: 2em;
     cursor: pointer;
+    border-radius: 4px;
+    border: 2px solid #205279be;
+    margin-top: 50px;
+    padding-right: 60px;
+    border: none;
+    
 }
 
+.id1{
+    align-items: center;
+    color: rgb(29, 4, 4);
+    margin-left: 10px;
+    font-weight: 50px;
+}
+.id2{
+    text-align: center;
+    margin-left: -100px;
+    font-weight: 1000;
+}

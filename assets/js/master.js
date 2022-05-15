@@ -1,4 +1,7 @@
+
 function check() {
+
+   
     var c=0;
     var q1=document.quiz.question1.value;
     var q2=document.quiz.question2.value;
@@ -22,12 +25,16 @@ function check() {
     if (q8=="innerHTML") (c++)
     if (q9=="document.write()") (c++)
     if (q10=="console.log()") (c++)
-    quiz.style.display="none";
-   document.write(c);
-    if (c<=4){
-        result.textcontent="Your result is $(c). Poor perfomance, please do more revision."
-    } else{ result.textcontent="Your result is $(c). Good performance, keep it up."
 
-    }
-       
+    document.getElementById("after_submit").style.visibility="visible";
+    document.getElementById("number_correct").innerHTML="You got " + correct + " correct.";
+
+    quiz.style.display="none";
+document.write(c);
+if (c<=4){
+result.textcontent="Your result is $(c). Poor perfomance, please do more revision."
+} else{ result.textcontent="Your result is $(c). Good performance, keep it up."
+
+}
+  
 }
