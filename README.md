@@ -2,6 +2,7 @@
 
 ## Description
 
+This project is web application that shows questions and results of javascript questions 
 - I was motivated by Moringa school to create a questions website.
 - The website was built to help test the students if they understood the content on Javascript that they learnt at school. This will be done through test questions.
 - This website helps to solve the problem of testing if the students understood the concept of Javascript through giving out questions to the students and getting the answers immediately after the submission.
@@ -13,6 +14,11 @@
 
 
 I give credits to moringa School management for providing me with this project to help me build my skills on CSS, HTML and Javascript.
+
+
+## Technology used
+ HTML - which was used to develope the structure off the pages.
+CSS - which was used to style the User Interface.
 
 ## Links
 The following are the links to my social media accounts.
