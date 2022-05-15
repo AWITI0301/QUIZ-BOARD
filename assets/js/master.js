@@ -28,6 +28,9 @@ function check() {
     
     document.write(c)
 
+    
+    
+
     var messages=["Good perfomance", "Average perfomance, there is room for improvement","poor perfomance, you really need to do more on your class work"];
 
     var range;
