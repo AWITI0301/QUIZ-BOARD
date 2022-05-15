@@ -23,6 +23,11 @@ function check() {
     if (q9=="document.write()") (c++)
     if (q10=="console.log()") (c++)
     quiz.style.display="none";
-   
+   document.write(c);
+    if (c<=4){
+        result.textcontent="Your result is $(c). Poor perfomance, please do more revision."
+    } else{ result.textcontent="Your result is $(c). Good performance, keep it up."
+
+    }
        
 }
