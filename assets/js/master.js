@@ -25,8 +25,26 @@ function check() {
     if (q8=="innerHTML") (c++)
     if (q9=="document.write()") (c++)
     if (q10=="console.log()") (c++)
-    document.write(c)
     
+    document.write(c)
+
+    var messages=["Good perfomance", "Average perfomance, there is room for improvement","poor perfomance, you really need to do more on your class work"];
+
+    var range;
+         if(correct<4) {
+             range=2;
+         }
+         if(correct>4 && correct<=7) {
+             range=1;
+         }
+         if (correct>7) {
+             range=0;
+         }
+
+
+
+   
+    document.getElementById("message").innerHTML=messages(range);
    
     quiz.style.display="none"
 

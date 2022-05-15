@@ -37,3 +37,14 @@ body{
     margin-left: -100px;
     font-weight: 1000;
 }
+#button{
+    margin-left: 250px;
+    background-color: black;
+color: white;
+font-size: 20px;
+padding: 5px;
+border: 2px solid #205279be;
+border-radius: 4px;
+height: 2em;
+cursor: pointer;
+}
