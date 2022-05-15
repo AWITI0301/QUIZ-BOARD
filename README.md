@@ -19,6 +19,7 @@ I give credits to moringa School management for providing me with this project t
 ## Technology used
  HTML - which was used to develope the structure off the pages.
 CSS - which was used to style the User Interface.
+JavaScript - was used to put interactivity and functionality of the questions on the page.
 
 ## Links
 The following are the links to my social media accounts.
