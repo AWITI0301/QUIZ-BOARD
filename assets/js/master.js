@@ -1,7 +1,6 @@
 
 function check() {
 
-   
     var c=0;
     var q1=document.quiz.question1.value;
     var q2=document.quiz.question2.value;
@@ -13,9 +12,10 @@ function check() {
     var q8=document.quiz.question8.value;
     var q9=document.quiz.question9.value;
     var q10=document.quiz.question10.value;
-    var result=document.getElementById("result")
-    var quiz=document.getElementById("quiz")
-    if (q1=="Web") (c++)
+    var number_correct=document.getElementById("number_correct");
+    var quiz=document.getElementById(quiz);
+     
+    if (q1 =="Web") (c++)
     if (q2=="Object-based") (c++)
     if (q3=="It is a scripting language used to make the website interactive") (c++)
     if (q4=="JavaScript file and in HTML document directly") (c++)
@@ -25,16 +25,11 @@ function check() {
     if (q8=="innerHTML") (c++)
     if (q9=="document.write()") (c++)
     if (q10=="console.log()") (c++)
+    document.write(c)
+    
+   
+    quiz.style.display="none"
 
     document.getElementById("after_submit").style.visibility="visible";
-    document.getElementById("number_correct").innerHTML="You got " + correct + " correct.";
-
-    quiz.style.display="none";
-document.write(c);
-if (c<=4){
-result.textcontent="Your result is $(c). Poor perfomance, please do more revision."
-} else{ result.textcontent="Your result is $(c). Good performance, keep it up."
-
-}
-  
+    
 }
