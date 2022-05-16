@@ -1,50 +1,58 @@
-body{
-    background-color: pink;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+}
+.myContainer{
+    padding: 1.0em;
+    padding-left: 2.0em;
+    display: flex;
+    flex-direction: row;
+
+}
+.myQuizz{
+
+    width: 65%;
+}
+
+.displayBoard{
+    height: 40px;
+   
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.startForm{
+    margin-top: 45px;
+}
+
+p{
+    font-weight: 200;
+    font-size: x-large;
+    width: fit-content;
     color: black;
-    font-size: 20px;
-    font-weight: bolder;
-    margin-left: 3rem;
-    font-family: "lato", sans-serif;
-}
-
-#after_submit{
-    visibility: hidden;
-}
-
-
-
-#retake{
-    font-size: 20px ;
-    padding: 5px;
-    height: 2em;
-    cursor: pointer;
-    border-radius: 4px;
-    border: 2px solid #205279be;
-    margin-top: 50px;
-    padding-right: 60px;
-    border: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
+    font-size: large;
 }
+.myButton{
+    background-color: red;
+    cursor: pointer;
+    height: 35px;
+    width: 70px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.myAnswers{
+    color:rgb(228, 74, 74);
 
-.id1{
-    align-items: center;
-    color: rgb(29, 4, 4);
-    margin-left: 10px;
-    font-weight: 50px;
+    width: 40%;
+    margin-top: 60px;
+    margin-left: 40px;
 }
-.id2{
-    text-align: center;
-    margin-left: -100px;
-    font-weight: 1000;
-}
-#button{
-    margin-left: 250px;
-    background-color: black;
-color: white;
-font-size: 20px;
-padding: 5px;
-border: 2px solid #205279be;
-border-radius: 4px;
-height: 2em;
-cursor: pointer;
+.headerOne{
+    
+    width: fit-content;
+    font-size: medium;
 }
