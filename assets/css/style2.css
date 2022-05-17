@@ -1,7 +1,7 @@
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: #A9d8e8 ;
 
 
 }
@@ -56,3 +56,6 @@ p{
     width: fit-content;
     font-size: medium;
 }
+
+
+
