@@ -45,4 +45,4 @@ function yourScore(){
 }
 function newComments(){
     var displayComments=document.getElementById("viewComments")
-    displayComments.innerHTML="Thank you for taking your time to attempt this questions"}
+    displayComments.innerHTML="Wonderful, thank you for taking your time to go through the questions."}
